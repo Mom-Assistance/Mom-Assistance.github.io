@@ -2,7 +2,7 @@
 <!-- Site developed by Collin Biedenkapp and Brandon Filer of TFDi Design -->
 <html>
 	
-<!-- Mirrored from jetstreamradio.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:23 GMT -->
+<!-- Mirrored from jetstreamradio.com/?content=feedback by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:50 GMT -->
 <head>
     <title>JetStream Radio</title>		
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -189,51 +189,21 @@
 					
 					$('#homebutton').click(
 					function() {
-												$('#meetdjtab').css({
-							'display': 'none'
-						});
-						$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#hometab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio', 'index.html');											
+												window.location.href = 'index.html';
 												return false;
 					}
 					);
 					
 					$('#feedbackbutton').click(
 					function() {
-												$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#meetdjtab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - Feedback', '?page=feedback');
+												window.location.href = 'index1b80.html?page=feedback';
 												return false;
 					}
 					);
 					
 					$('#meetdjbutton').click(
 					function() {
-												$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#meetdjtab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - Meet the DJ\'s', '?page=meetdj');
+												window.location.href = 'index4b72.html?page=meetdj';
 												return false;
 					}
 					);
@@ -242,17 +212,7 @@
 					
 					$('#onairbutton').click(
 					function() {
-												$('#meetdjtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#onairtab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - On Air Schedule', '?page=onair');
+												window.location.href = 'indexb074.html?page=onair';
 								
 						return false;
 					}
@@ -1532,5 +1492,5 @@
 		</div>		
 	</body>
 
-<!-- Mirrored from jetstreamradio.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:49 GMT -->
+<!-- Mirrored from jetstreamradio.com/?content=feedback by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:50 GMT -->
 </html>

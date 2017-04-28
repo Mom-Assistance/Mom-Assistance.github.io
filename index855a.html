@@ -2,7 +2,7 @@
 <!-- Site developed by Collin Biedenkapp and Brandon Filer of TFDi Design -->
 <html>
 	
-<!-- Mirrored from jetstreamradio.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:23 GMT -->
+<!-- Mirrored from jetstreamradio.com/?content=review by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:50 GMT -->
 <head>
     <title>JetStream Radio</title>		
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -189,51 +189,21 @@
 					
 					$('#homebutton').click(
 					function() {
-												$('#meetdjtab').css({
-							'display': 'none'
-						});
-						$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#hometab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio', 'index.html');											
+												window.location.href = 'index.html';
 												return false;
 					}
 					);
 					
 					$('#feedbackbutton').click(
 					function() {
-												$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#meetdjtab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - Feedback', '?page=feedback');
+												window.location.href = 'index1b80.html?page=feedback';
 												return false;
 					}
 					);
 					
 					$('#meetdjbutton').click(
 					function() {
-												$('#onairtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#meetdjtab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - Meet the DJ\'s', '?page=meetdj');
+												window.location.href = 'index4b72.html?page=meetdj';
 												return false;
 					}
 					);
@@ -242,17 +212,7 @@
 					
 					$('#onairbutton').click(
 					function() {
-												$('#meetdjtab').css({
-							'display': 'none'
-						});
-						$('#hometab').css({
-							'display': 'none'
-						});	
-						$('#feedbacktab').css({
-							'display': 'none'
-						});
-						$('#onairtab').fadeIn(250);		
-						history.pushState('', 'JetStream Radio - On Air Schedule', '?page=onair');
+												window.location.href = 'indexb074.html?page=onair';
 								
 						return false;
 					}
@@ -1141,384 +1101,87 @@
                 				</div>                
 			</div>
 			<div class="mainbox" style="margin-top:27px">
-              					<!-- home -->            
-				<div id="hometab" class="contentbox" style="display:table">	                
-					<img onclick='window.location.href = "https://blog.tfdidesign.com/2015/05/24/jetstream-radio/";' src='uploads/images/1php4cHAj2.png' alt="banner" style=" cursor:pointer;height:240px;width:920px;margin-bottom:10px" />
-                    					<div style="display:block;height:134px;width:621px;background-color:#efefef;position:relative;float:left">                    	
-												<div id="news_item_0" style='background-color:#efefef;box-shadow: inset 0 0 20px 1px #9E9E9E;width:621px;'>
-							<img src='uploads/images/289phpxbPWLN.png' alt='news placeholder' style='height:107px;width:240px;display:inline;'/>                            
-							<div style="position:absolute;top:0;left:240px;padding:12px;padding-top:7px">
-								<div style="color:#0055bf;font-size:14pt;font-family:'Verdana';text-transform:uppercase;margin-bottom:11px">JetStream Radio Desktop</div>
-								<div style="font-size:10pt">Listen to all of your favorite tunes straight from your PC with JetStream Radio Desktop for Windows. <a href="http://tinyurl.com/jsrdesktop">Download Now!</a href></div>
-							</div>
-						</div>
-						 
-						<div style="position:absolute;bottom:0;background-color:#0055bf;color:#ffffff;width:100%;height:27px">
-							<div style="height:27px;width:621px;position:relative;text-align:center">
-                            							</div>
-						</div>
-					</div>
-                                        
-                    <div style="width:282px;float:right;display:inline">
-						<a height="209" width="282" style="margin-top:10px" class="twitter-timeline" href="https://twitter.com/JetStreamRadio"  data-widget-id="451059200970346496">Tweets by @JetStreamRadio</a>                                                        
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                            
-					</div>
-                    <div style="margin-top:15px;float:left;display:inline">
-                    	<a href='https://www.facebook.com/RadioJetStream' target='_blank'><img src='images/FB_Banner.png' alt="facebook banner"/></a>
-                    </div>
-					
-					<div style="clear:both"></div>
-					<div style="float:left;margin-top:15px;width:100%;margin-bottom:10px">
-						<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:10px">On Air Today - Friday, 04/28/17. Time Now: 02:52Z</div>
-						<table>
-							<tr class="onair_header">
-								<td style="width:230px;">Show</td>
-								<td style="width:230px">Show Type</td>
-								<td style="width:230px">Host</td>
-								<td style="width:230px">Time</td>
-							</tr>
-                                                        	<tr>
-                                	<td>Friday Night Live</td>
-                                    <td>Live Show</td>
-                                    <td>Josh Riley</td>
-                                    <td>1700z</td>
-                                </tr>
-                                                        	<tr>
-                                	<td>Ethan's Evening</td>
-                                    <td>Live Show</td>
-                                    <td>Ethan Browning</td>
-                                    <td>1900z</td>
-                                </tr>
-                            							<tr>
-								<td>The Next Generation in Music</td>
-								<td>Music</td>
-								<td>AutoDJ</td>
-								<td>Any Applicable</td>
-							</tr>
-						</table>
-					</div>
-					<br/><br/>
-                    <div style='float:left;width:460px'>
-						<div style="width:100%;text-align:center;font-size:14pt;margin-top:5px;color:#0055bf;margin-bottom:5px;margin-left:auto;margin-right:auto">Talk to us!</div>
-						<iframe src="https://discordapp.com/widget?id=112345724674469888&amp;theme=dark" width="400" height="300" allowtransparency="true" frameborder="0"></iframe>
-					</div>
-                    <div style='float:right;width:460px'>
-	                                        
-		                <div class="contentbox" style="display:inline">
-	                        <div style="width:100%;text-align:center;font-size:14pt;margin-top:5px;color:#0055bf;margin-bottom:5px;margin-left:auto;margin-right:auto">Partners</div>
-	                        <div style='margin-left:auto;margin-right:auto;text-align:center;'>
- 
-<a href='http://www.tfdidesign.com/' target='_Blank'><img src='../tfdidesign.com/templates/tfdi2/img/logo.html' alt='TFDi Logo' width=100></a>
-  
-
-<a href='http://www.vatstar.com/' target='_blank'><img src='../i.imgur.com/xH0RpOE.png' width=100 alt='VATSTAR'></a>
- 
-
-<a href='https://www.reddit.com/r/flightsim' target='_blank'><img src='../i.imgur.com/yN3moXn.png' width=100 alt='r flightsim'></a>
- 
-
-<a href='http://www.sasvirtual.co.uk/' target='_blank'><img src='images/partners/sasvirtual.png' width=100 alt='SAS Virtual' /></a>
- 
-
-<a href='http://makaiair.com/' target='_blank'><img src='images/partners/makaiair.png' width=100 alt='Makai Air' /></a>
-
-
-<a href="https://vgroupvirtual.com/" target="_blank"><img src="../vgroupvirtual.com/images/partnerlogo.png" width=100  alt="V Group Virtual" /></a>
-
-
-<a href='http://www.aavirtual.net//' target='_blank'><img src='../aavirtual.net/aanewlogotop.gif' width=100  /></a> 
-</div>
-
-
-<div style="text-align: center;">
-<p>For partner inquiries please contact Brandon@jetstreamradio.com</p>
-</div><br />
-	                        <div style="width:100%;text-align:center;font-size:14pt;margin-top:5px;color:#0055bf;margin-bottom:5px;margin-left:auto;margin-right:auto">Brought to you by <a href="http://www.sonixcast.com/">Sonixcast<br /><br /><img src="images/partners/sonixcast.png" /></a ></div>
-	                    </div>
-                    </div>
-                    				</div>         
-                <!-- feedback -->
-   				<div id="feedbacktab" class="contentbox" style="display:none">
-                	<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">About</div>
-                    JetStream is a community-powered online radio station. This means we take reviews and input from the community very seriously.
-                    <br/><br/>
-                    <div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Reviews</div>
-                  	Via the Review Form, you can submit feedback for any JetStream Radio content (DJ's, live shows, on-demand content, or an "other" category for things like social media, articles, etc.). This feedback goes to our administration team and allows them to improve and decide on future content.<br/><br/>
-                    The Review Form is available at <a href='index855a.html?content=review'>https://jetstreamradio.com/?content=review</a>.
-                    <br/><br/>
-                    <div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">AutoDJ Song Request Form</div>
-					AutoDJ exists to fill off-times with enjoyable content. Our goal is to maintain a list of active, popular, upbeat songs.
-                    <br/><br/>
-                    We have added a form to allow our listeners to both request a song's addition or removal to the AutoDJ list. If a song is explicit, doesn't fit the radio's style, or is unpleasant, it can be reported via the AutoDJ Song Request form. If a new song comes out, it can be submitted so it gets added to the list.
-                    <br/><br/>
-                    The AutoDJ Song Request Form is available at <a href='index6339.html?content=autodjsongform'>https://jetstreamradio.com/?content=autodjsongform</a>.
-                </div>      
-				<!-- on air -->
-				<div id="onairtab" class="contentbox" style="display:none">
-					<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">On Air Schedule</div>
-					<div id="mondaybutton" style="display:inline-block;width:116px;border-bottom-right-radius:0" class="button">Monday</div>
-					<div id="tuesdaybutton" style="display:inline-block;width:115px;" class="button">Tuesday</div>
-					<div id="wednesdaybutton" style="display:inline-block;width:115px;" class="button">Wednesday</div>
-					<div id="thursdaybutton" style="display:inline-block;width:115px;" class="button">Thursday</div>
-					<div id="fridaybutton" style="display:inline-block;width:115px;" class="button">Friday</div>
-					<div id="saturdaybutton" style="display:inline-block;width:116px;" class="button">Saturday</div>
-					<div id="sundaybutton" style="display:inline-block;width:116px" class="button">Sunday</div>
-					<div style="float:left;width:100%x;margin-top:15px">
-						<!-- Monday -->
-						<div id="whichday" style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Monday's Schedule</div>
-						<div id="mondayschedule">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-								                                    <tr>
-                                        <td>XPDR Radio Show Witk Kevin G</td>
-                                        <td>Talk-Music</td>
-                                        <td>Kevin G</td>
-                                        <td>2000z</td>
-                                    </tr>
-                                                                    <tr>
-                                        <td>Monday Mania</td>
-                                        <td>Live Show</td>
-                                        <td>Bailey</td>
-                                        <td>2300z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- Tuesday -->
-						<div id="tuesdayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>Top Hits with Connor</td>
-                                        <td>Live Show</td>
-                                        <td>Connor</td>
-                                        <td>2100z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- wednesday -->
-						<div id="wednesdayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>The All Request Show</td>
-                                        <td>Interactive</td>
-                                        <td>Ron </td>
-                                        <td>2200z</td>
-                                    </tr>
-                                                                    <tr>
-                                        <td>Midweek Madness!!</td>
-                                        <td>Live Show</td>
-                                        <td>Bailey</td>
-                                        <td>2300z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- thursday -->
-						<div id="thursdayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>It't The Connor Show</td>
-                                        <td>He thinks he's live.</td>
-                                        <td>Connor</td>
-                                        <td>1800z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- friday -->
-						<div id="fridayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>Friday Night Live</td>
-                                        <td>Live Show</td>
-                                        <td>Josh Riley</td>
-                                        <td>1700z</td>
-                                    </tr>
-                                                                    <tr>
-                                        <td>Ethan's Evening</td>
-                                        <td>Live Show</td>
-                                        <td>Ethan Browning</td>
-                                        <td>1900z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- saturday -->
-						<div id="saturdayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>A Vincetian Evening</td>
-                                        <td>Live Show</td>
-                                        <td>Vincent Das</td>
-                                        <td>1900z</td>
-                                    </tr>
-                                                                    <tr>
-                                        <td>Hard Rock Saturday</td>
-                                        <td>Live Show</td>
-                                        <td>Ron </td>
-                                        <td>2300z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-						<!-- sunday -->
-						<div id="sundayschedule" style="display:none">
-							<table>
-								<tr class="onair_header">
-									<td style="width:230px;">Show</td>
-									<td style="width:230px">Show Type</td>
-									<td style="width:230px">Host</td>
-									<td style="width:230px">Time</td>
-								</tr>
-                                                                    <tr>
-                                        <td>Box Of Rock</td>
-                                        <td>Live Show</td>
-                                        <td>Ron </td>
-                                        <td>2200z</td>
-                                    </tr>
-                                								<tr>
-									<td>The Next Generation in Music</td>
-									<td>Music</td>
-									<td>AutoDJ</td>
-									<td>Any Applicable</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-				</div>
-				<!-- meet dj -->
-				<div id="meetdjtab" class="contentbox" style="display:none">
-	                <div style="width:950px;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Our DJ's</div>
-                								<div id="dj45" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:0;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/405phpijcVFy.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Ethan Browning</div>
-                                <div id="dj45bio" style="margin:10px">Give a big Jetsteam welcome to our newest host!</div>
-                            </div>
-													<div id="dj39" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/1phphG0dmy.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Ron </div>
-                                <div id="dj39bio" style="margin:10px">Not only is Ron the Program Director, he also hosts the Box of Rock on Sunday Nights and requests from you guys on Wednesday nights. Tune In!</div>
-                            </div>
-													<div id="dj41" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/1phpXskCDU.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Breanna</div>
-                                <div id="dj41bio" style="margin:10px">It is Breanna big head.</div>
-                            </div>
-													<div id="dj46" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:0" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/405phpxuXmQb.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Kevin G</div>
-                                <div id="dj46bio" style="margin:10px">Kevin is a working journalist from Ireland, obsessed with sport and fly the big jets!</div>
-                            </div>
-														<div style="clear:both;height:10px;"></div>
-															<div id="dj35" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:0;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/405phpNfpghT.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Bailey</div>
-                                <div id="dj35bio" style="margin:10px">Bailey is a DJ of JetStream Radio in training  He loves his Flight Sim More to come. </div>
-                            </div>
-													<div id="dj34" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/413phpWURstG.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Brandon</div>
-                                <div id="dj34bio" style="margin:10px">Brandon is one of the station managers who oversees host hiring and handles other things JetStream related. You can also tune into to his syndicated shows to hear your favorite hits no matter what genre you like!</div>
-                            </div>
-													<div id="dj30" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/413phpRvIZIq.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">David</div>
-                                <div id="dj30bio" style="margin:10px">David is another manager to the station that has been involed in the flight simulator community for many years. He has spent real-world flight hours in a cessna and many more in the Flight simulator</div>
-                            </div>
-													<div id="dj31" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:0" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/1php6Zu0C0.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Collin</div>
-                                <div id="dj31bio" style="margin:10px">TFDi Design's very own Collin Biedenkapp has brought you smartCARS and the very anticipated Boeing 717. During his off time from coding products you love, he appears in the &quot;Global Chat&quot; and will host shows containing insider information and his musical style!</div>
-                            </div>
-														<div style="clear:both;height:10px;"></div>
-															<div id="dj36" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:0;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/413phpMWc7Nq.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Connor</div>
-                                <div id="dj36bio" style="margin:10px">When Connor is live you can expect to turn the dial up. His shows display a wide variety of music that will reach the taste of just about any listener. You think of a song, and Connor will get it streamed live on air!</div>
-                            </div>
-													<div id="dj27" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/289phpAY8tcQ.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Joshua</div>
-                                <div id="dj27bio" style="margin:10px">TFDi Design's very own Community Manager. When he goes on air, expect to hear some in depth news when it comes to the aviation field and some interesting interviews with developers within the flight simulation community!</div>
-                            </div>
-													<div id="dj43" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:5px" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/405phps7o6aS.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Josh Riley</div>
-                                <div id="dj43bio" style="margin:10px">Josh loves broadcasting at weekends for your enjoyment and loves taking requests! He loves nothing more than kicking back with music and flying to somewhere in the world!</div>
-                            </div>
-													<div id="dj44" style="overflow:hidden;width:222px;height:235px;padding:0;margin-left:5px;margin-right:0" class="dj dj_biopage">                            
-								<img style="width:222px;height:200px;" alt="dj thumbnail" src="uploads/images/405phpM6qNi4.png"/>
-								<div style="width:100%;text-align:center;font-size:14pt;color:#0055bf;margin-bottom:5px">Vincent Das</div>
-                                <div id="dj44bio" style="margin:10px">While new to JetStream Vincent is no stranger to broadcasting. </div>
-                            </div>
-										</div>
-            	
+              	                 <script>
+function set_stars(star) {
+	document.getElementById('stars').value = star;
+	switch(star) {
+		case 2:
+			document.getElementById('star_1').src = 'images/rating_checked.png';			
+			document.getElementById('star_2').src = 'images/rating_checked.png';			
+			document.getElementById('star_3').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_4').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_5').src = 'images/rating_unchecked.png';			
+			break;
+		case 3:
+			document.getElementById('star_1').src = 'images/rating_checked.png';			
+			document.getElementById('star_2').src = 'images/rating_checked.png';			
+			document.getElementById('star_3').src = 'images/rating_checked.png';			
+			document.getElementById('star_4').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_5').src = 'images/rating_unchecked.png';
+			break;
+		case 4:
+			document.getElementById('star_1').src = 'images/rating_checked.png';			
+			document.getElementById('star_2').src = 'images/rating_checked.png';			
+			document.getElementById('star_3').src = 'images/rating_checked.png';			
+			document.getElementById('star_4').src = 'images/rating_checked.png';			
+			document.getElementById('star_5').src = 'images/rating_unchecked.png';
+			break;
+		case 5:
+			document.getElementById('star_1').src = 'images/rating_checked.png';			
+			document.getElementById('star_2').src = 'images/rating_checked.png';			
+			document.getElementById('star_3').src = 'images/rating_checked.png';			
+			document.getElementById('star_4').src = 'images/rating_checked.png';			
+			document.getElementById('star_5').src = 'images/rating_checked.png';
+			break;
+		default:
+			document.getElementById('star_1').src = 'images/rating_checked.png';			
+			document.getElementById('star_2').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_3').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_4').src = 'images/rating_unchecked.png';			
+			document.getElementById('star_5').src = 'images/rating_unchecked.png';
+			break;
+	}
+}
+</script>
+<style>
+.star {
+	cursor:pointer;
+	height:29px;
+	margin-left:6px;
+	margin-right:6px;
+	display:inline;
+}
+</style>
+<div class="contentbox">
+ <div style="width:920px;text-align:center;font-size:14pt;color:#1058c4;margin-bottom:5px">Content Review Form</div>
+ <div style="width:920px;text-align:left;margin-bottom:5px"><b>Your review will be confidential.</b> Your name will not be given to DJ's or content authors. The information you submit will go directly to the JetStream Radio administration team.</div><br/><br/>
+            <form id="reviewform" action="https://jetstreamradio.com/function/review.php" method="post">
+	            <div style="width:460px;float:left;display:inline;margin-bottom:10px"><input  type='radio' name='formtype' value='DJ' style="float:left"/>DJ</div>
+                <div style="width:460px;float:right;display:inline;margin-bottom:10px"><input  type='radio' name='formtype' value='Live Show' style="float:left"/>Live Show</div>
+                <div style="clear:both"></div>
+  	            <div style="width:460px;float:left;display:inline;margin-bottom:10px"><input  type='radio' name='formtype' value='On-demand Content' style="float:left"/>On-demand Content</div>
+                <div style="width:460px;float:right;display:inline;margin-bottom:10px"><input  type='radio' name='formtype' value='Other' style="float:left"/>Other</div>
+                <div style="clear:both"><hr/></div>
+                
+                <input style="width:443px;float:left;display:inline;margin-bottom:10px"  type="text" name="name" placeholder="Name"/>            
+                <input style="width:443px;float:right;display:inline;margin-bottom:10px" type="email" name="email" placeholder="Email"/>            
+                <div style="clear:both"></div>
+                <input style="width:443px;float:left;display:inline;margin-bottom:10px" type="text"  name="subject" placeholder="Review Subject"/> 
+                <div style='display:inline-block;margin-left:10px;margin-top:4px;'>Rating:</div><div style="width:390px;float:right;display:inline;margin-bottom:10px"><input name="stars" id="stars" style="display:none"/><img onClick="set_stars(1);" class='star' id='star_1' src='images/rating_checked.png'/><img onClick="set_stars(2);" class='star' id='star_2' src='images/rating_checked.png'/><img onClick="set_stars(3);" class='star' id='star_3' src='images/rating_checked.png'/><img onClick="set_stars(4);" class='star' id='star_4' src='images/rating_unchecked.png'/><img onClick="set_stars(5);" class='star' id='star_5' src='images/rating_unchecked.png'/></div>                                                            
+                
+                <div id='txbreason' style='text-align:left;'>
+	                <div ><textarea style="width:910px;height:60px;float:left;margin-bottom:10px" name='additionalinformation' placeholder="Additional information (optional but appreciated)"></textarea></div>
+                </div>
+                
+                <div style="clear:both"><hr/></div>
+                <div class="g-recaptcha" data-sitekey="6LfEHAgTAAAAAJHQBfUQSsU3wXHUEK2DWuK1TLL_"></div>
+                <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+                <div onClick="document.getElementById('reviewform').submit();" class="button" style="float:right;display:inline;margin-top:5px">Submit</div>
+            </form>
+            <div style="float:left;color:red;margin-top:10px;color:red;display:none"></div>        
+      
+   </div>
+       	                	
 			</div>
 			<!-- footer -->
 			<div class="footer" style="color:#a0a0a0;font-size:10pt;margin-top:5px">
@@ -1532,5 +1195,5 @@
 		</div>		
 	</body>
 
-<!-- Mirrored from jetstreamradio.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:49 GMT -->
+<!-- Mirrored from jetstreamradio.com/?content=review by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Apr 2017 02:52:52 GMT -->
 </html>
