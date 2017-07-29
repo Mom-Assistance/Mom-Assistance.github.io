@@ -1,7 +1,7 @@
 //// mobile.js submenu nav - all below
-Weebly = Weebly || {};
 
-Weebly.mobile_navigation = (function($) {
+
+
 
   var isOpen = false,
       isMoving = false,
