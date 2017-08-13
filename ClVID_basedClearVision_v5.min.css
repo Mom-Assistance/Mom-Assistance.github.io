@@ -1,3 +1,4 @@
+//META{"name":"CLVID","description":"A theme with customizable colors (soon) background!</br> Based on <a href='https://github.com/Zerthox/ClearVision/blob/master/themes/ClearVision_Amethyst.theme.css' target='_blank'>ClearVisionv5</a> by <a href='https://github.com/Zerthox/' target='_blank'>@Nerthox</a> by <a href='https://github.com/cosmicsalad' target='_blank'>@Hammock</a>  <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/Mom-Assistance' target='_blank'>@Damian</a></b></span>","author":"<a href='https://github.com/Mom-Assistance' target='_blank'>@Damian</a>","version":"2"}*//{}
 .tab-bar-item {
 
     background: linear-gradient(to right, #BF1313, #6913BF);
